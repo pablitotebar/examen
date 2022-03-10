@@ -8,7 +8,7 @@ public static boolean esPrimo(int n)
 		if(n%i==0){
 			return false;
 		}
-		i++;
+		i++-;
 	}
 	return true;
 }
