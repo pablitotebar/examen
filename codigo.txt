@@ -8,7 +8,11 @@ public static boolean esPrimo(int n)
 		if(n%i==0){
 			return false;
 		}
+<<<<<<< HEAD
 		i++-;
+=======
+		i+++;
+>>>>>>> cd8fa414726cc453f235c9064e4b847734bf841b
 	}
 	return true;
 }
